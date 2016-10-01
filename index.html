@@ -1,15 +1,68 @@
-<!doctype html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Game</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <script src="pixi.js/bin/pixi.min.js"></script>
-    <script src="js/_game.min.js"></script>
-</head>
-<body>
-	<script>Game.init();</script>
-</body>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Game-demo : Experiments on making web browser game">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Game-demo</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/vesaka/game-demo">View on GitHub</a>
+
+          <h1 id="project_title">Game-demo</h1>
+          <h2 id="project_tagline">Experiments on making web browser game</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/vesaka/game-demo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/vesaka/game-demo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="a-live-demo-of-my-first-game" class="anchor" href="#a-live-demo-of-my-first-game" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A live demo of my first game.</h2>
+
+<p><em>For best expirience play on Chrome browser</em>
+<strong>RULES</strong> 
+The small circle on the bottom right corner is the controller.
+Find the next circle. Every turn the next circle wil reveal itself. 
+Connect next circle. 
+Try not to hit the following:</p>
+
+<ul>
+<li>Node that is not the current goal. </li>
+<li>Lines left by the triangle.</li>
+<li>The bounadries.
+They will cost you one life. You have 10 lives. </li>
+</ul>
+
+<p>Circles are generated in random positions.</p>
+
+<p>This is alpha gameplay. Some bugs are still there or performance is not very good.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Game-demo maintained by <a href="https://github.com/vesaka">vesaka</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
