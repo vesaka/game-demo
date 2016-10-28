@@ -1,0 +1,6 @@
+{
+  "name": "Game-demo",
+  "tagline": "Experiments on making web browser game",
+  "body": "## A live demo of my first game.\r\n _For best expirience play on Chrome browser_\r\n**RULES** \r\nThe small circle on the bottom right corner is the controller.\r\nFind the next circle. Every turn the next circle wil reveal itself. \r\nConnect next circle. \r\nTry not to hit the following:\r\n* Node that is not the current goal. \r\n* Lines left by the triangle.\r\n* The bounadries.\r\nThey will cost you one life. You have 10 lives. \r\n\r\nCircles are generated in random positions.\r\n\r\nThis is alpha gameplay. Some bugs are still there or performance is not very good.",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
