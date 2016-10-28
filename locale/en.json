@@ -1,0 +1,97 @@
+{
+    "name": "Vesaka",
+    "position": {
+        "x": "0",
+        "y": "32"
+    },
+    "menu": {
+        "start": "New Game",
+        "tutorial": "Hot to play",
+        "options": "Options",
+        "rewards": "Rewards",
+        "shop": "Shop",
+        "about": "About",
+        "resume": "Resume game"
+    },
+    "achievments": {
+        "dont_suck": {
+            "title": "Try not to suck",
+            "description": ""
+        },
+        "killer_streak": {
+            "title": "On The Roll",
+            "description": ""
+        },
+        "all_achievments": {
+            "title": "Acquire all items",
+            "description": ""
+        }
+    },
+    "items": {
+        "horseshoe": {
+            "title": "",
+            "description": ""
+        },
+        "blower": {
+            "title": "",
+            "description": ""
+        },
+        "oracule": {
+            "title": "",
+            "description": ""
+        },
+        "retreater": {
+            "title": "",
+            "description": ""
+        },
+        "energy_drink": {
+            "title": "",
+            "description": ""
+        }
+    },
+    "player_stats": {
+        "lives": "Lives",
+        "stamina": "Stamina",
+        "score": "Score",
+        "remember": "Backtracking",
+        "predict": "Gaze upon future",
+        "luck": "Luck"
+    },
+    "messages": {
+        "game_over": "Game Over",
+        "well_done": "Congratulations",
+        "confirm": "Are you sure?",
+        "your_score": "Your score: ",
+        "game_over_score": "Game Over\nYour score {0}",
+        "well_done_score": "Congratulations\nYour score {0}\nClick anywhere to for new game",
+        "switch_to_landscape": "The game is not supported in portrait mode at the moment.\nSwitch to landscape to play"
+    },
+    "hud_buutons": {
+        "restart_game": "Restart game",
+        "start_new": "Start a new game",
+        "restart_turn": "Restart this move"
+    },
+    "credit": {
+        "author": "Me, myself and I"
+    },
+    "options": {
+        "title": "Settings",
+        "locale": "Select Language"
+    },
+    "tutorial": {
+        "title": "Game rules:",
+        "text": "A set of 30 circles are placed on random positions in range of 1 to 30.\nA single pointer (reversed triangle) is positioned on circle 1. That pointer displays the player's current position. The goal – every single turn the pointer must be moved to next circle with appropriate number. Whenever you reach the last 30th circle, victory is yours.\nNot all of circle numbers are visible. Only the current goal and last three visited circles are visible.\nPointer leaves a trail behind. This will disappear in 5 turns.\nFollowing mistakes should be prevented:\n\n\t\t\t\t\tThe pointer must not cross or hit its own trail\n\n\t\t\t\t\tThe pointer should not hit any other circle then the current goal.\n\n\t\t\t\t\tThe boundaries of the world (game screen) must not be hit.\n\n\t\t\t\t\tThe pointer stamina to run out before you reach the current goal.\n\nIf such mistake occurs one Health Point is taken and the pointer will be returned to start position of current turn.The game will end either with all 30 circles cleared or with Health Point reduced to 0.\n\n\nHAVE FUN"
+    },
+    "radio": {
+        "on_off": "On/Off",
+        "on": "On",
+        "off": "Off",
+        "enable": "Enable",
+        "disable": "Disable"
+    },
+    "home_button": {
+        "close": "Close",
+        "back": "Back",
+        "cancel": "Cancel"
+    }
+}
